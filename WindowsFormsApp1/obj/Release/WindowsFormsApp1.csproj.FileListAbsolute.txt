@@ -1,0 +1,11 @@
+\\192.168.3.250\Veda\4 Курс\ИСП 43\МДК 07.01\Студентки\Брагин\WindowsFormsApp1\bin\Release\1 Библеотека.accdb
+\\192.168.3.250\Veda\4 Курс\ИСП 43\МДК 07.01\Студентки\Брагин\WindowsFormsApp1\bin\Release\WindowsFormsApp1.exe.config
+\\192.168.3.250\Veda\4 Курс\ИСП 43\МДК 07.01\Студентки\Брагин\WindowsFormsApp1\bin\Release\WindowsFormsApp1.exe
+\\192.168.3.250\Veda\4 Курс\ИСП 43\МДК 07.01\Студентки\Брагин\WindowsFormsApp1\bin\Release\WindowsFormsApp1.pdb
+\\192.168.3.250\Veda\4 Курс\ИСП 43\МДК 07.01\Студентки\Брагин\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.AssemblyReference.cache
+\\192.168.3.250\Veda\4 Курс\ИСП 43\МДК 07.01\Студентки\Брагин\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Form1.resources
+\\192.168.3.250\Veda\4 Курс\ИСП 43\МДК 07.01\Студентки\Брагин\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Properties.Resources.resources
+\\192.168.3.250\Veda\4 Курс\ИСП 43\МДК 07.01\Студентки\Брагин\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.GenerateResource.cache
+\\192.168.3.250\Veda\4 Курс\ИСП 43\МДК 07.01\Студентки\Брагин\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+\\192.168.3.250\Veda\4 Курс\ИСП 43\МДК 07.01\Студентки\Брагин\WindowsFormsApp1\obj\Release\WindowsFormsApp1.exe
+\\192.168.3.250\Veda\4 Курс\ИСП 43\МДК 07.01\Студентки\Брагин\WindowsFormsApp1\obj\Release\WindowsFormsApp1.pdb
