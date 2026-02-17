@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.библеотекаDataSet2BindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this._1_БиблеотекаDataSet2 = new WindowsFormsApp1._1_БиблеотекаDataSet2();
             this.историяВыдачиBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.история_выдачиTableAdapter = new WindowsFormsApp1._1_БиблеотекаDataSet2TableAdapters.История_выдачиTableAdapter();
@@ -40,9 +41,9 @@
             this.запрос1TableAdapter = new WindowsFormsApp1._1_БиблеотекаDataSet1TableAdapters.Запрос1TableAdapter();
             this.учетЧитателейBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.учет_читателейTableAdapter = new WindowsFormsApp1._1_БиблеотекаDataSet2TableAdapters.Учет_читателейTableAdapter();
-            this.библеотекаDataSet2BindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.Back2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.библеотекаDataSet2BindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._1_БиблеотекаDataSet2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.историяВыдачиBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.библеотекаDataSet2BindingSource)).BeginInit();
@@ -50,7 +51,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.библеотекаDataSet1BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.запрос1BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.учетЧитателейBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.библеотекаDataSet2BindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -62,6 +62,11 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(725, 273);
             this.dataGridView1.TabIndex = 0;
+            // 
+            // библеотекаDataSet2BindingSource1
+            // 
+            this.библеотекаDataSet2BindingSource1.DataSource = this._1_БиблеотекаDataSet2;
+            this.библеотекаDataSet2BindingSource1.Position = 0;
             // 
             // _1_БиблеотекаDataSet2
             // 
@@ -110,11 +115,6 @@
             // 
             this.учет_читателейTableAdapter.ClearBeforeFill = true;
             // 
-            // библеотекаDataSet2BindingSource1
-            // 
-            this.библеотекаDataSet2BindingSource1.DataSource = this._1_БиблеотекаDataSet2;
-            this.библеотекаDataSet2BindingSource1.Position = 0;
-            // 
             // Back2
             // 
             this.Back2.Location = new System.Drawing.Point(26, 368);
@@ -128,6 +128,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Hanger_Library;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Back2);
             this.Controls.Add(this.dataGridView1);
@@ -135,6 +136,7 @@
             this.Text = "Client";
             this.Load += new System.EventHandler(this.Client_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.библеотекаDataSet2BindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this._1_БиблеотекаDataSet2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.историяВыдачиBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.библеотекаDataSet2BindingSource)).EndInit();
@@ -142,7 +144,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.библеотекаDataSet1BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.запрос1BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.учетЧитателейBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.библеотекаDataSet2BindingSource1)).EndInit();
             this.ResumeLayout(false);
 
         }
