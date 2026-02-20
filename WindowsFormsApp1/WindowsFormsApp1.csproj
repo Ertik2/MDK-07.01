@@ -81,6 +81,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>_1_БиблеотекаDataSet2.xsd</DependentUpon>
     </Compile>
+    <Compile Include="_1_БиблеотекаDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_1_БиблеотекаDataSet3.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -142,16 +147,29 @@
     <None Include="_1_БиблеотекаDataSet2.xss">
       <DependentUpon>_1_БиблеотекаDataSet2.xsd</DependentUpon>
     </None>
+    <None Include="_1_БиблеотекаDataSet3.xsc">
+      <DependentUpon>_1_БиблеотекаDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="_1_БиблеотекаDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_1_БиблеотекаDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_1_БиблеотекаDataSet3.xss">
+      <DependentUpon>_1_БиблеотекаDataSet3.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Image\Hanger_Library.jpg" />
+    <None Include="Image\orig.jfif" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="1 Библеотека.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="Image\Hanger_Library.jpg" />
-    <None Include="Image\orig.jfif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
