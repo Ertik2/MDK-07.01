@@ -32,7 +32,30 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NuGet.Frameworks, Version=7.3.0.70, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\NuGet.Frameworks.7.3.0\lib\net472\NuGet.Frameworks.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -76,16 +99,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>_1_БиблеотекаDataSet1.xsd</DependentUpon>
     </Compile>
-    <Compile Include="_1_БиблеотекаDataSet2.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>_1_БиблеотекаDataSet2.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="_1_БиблеотекаDataSet3.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>_1_БиблеотекаDataSet3.xsd</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -105,6 +118,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -135,28 +149,6 @@
     </None>
     <None Include="_1_БиблеотекаDataSet1.xss">
       <DependentUpon>_1_БиблеотекаDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="_1_БиблеотекаDataSet2.xsc">
-      <DependentUpon>_1_БиблеотекаDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="_1_БиблеотекаDataSet2.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>_1_БиблеотекаDataSet2.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="_1_БиблеотекаDataSet2.xss">
-      <DependentUpon>_1_БиблеотекаDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="_1_БиблеотекаDataSet3.xsc">
-      <DependentUpon>_1_БиблеотекаDataSet3.xsd</DependentUpon>
-    </None>
-    <None Include="_1_БиблеотекаDataSet3.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>_1_БиблеотекаDataSet3.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="_1_БиблеотекаDataSet3.xss">
-      <DependentUpon>_1_БиблеотекаDataSet3.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

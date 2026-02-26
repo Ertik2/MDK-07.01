@@ -35,6 +35,7 @@
             this.Login = new System.Windows.Forms.Label();
             this.Password = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -112,12 +113,23 @@
             this.checkBox1.Text = "Регистрация";
             this.checkBox1.UseVisualStyleBackColor = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Red;
+            this.button1.Location = new System.Drawing.Point(658, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(63, 34);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Закрыть";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // Autorization
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Hanger_Library;
             this.ClientSize = new System.Drawing.Size(733, 442);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.Password);
             this.Controls.Add(this.Login);
@@ -141,5 +153,6 @@
         private System.Windows.Forms.Label Login;
         private System.Windows.Forms.Label Password;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
