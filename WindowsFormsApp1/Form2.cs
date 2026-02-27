@@ -39,5 +39,20 @@ namespace WindowsFormsApp1
             this.учет_книгTableAdapter.Fill(this._1_БиблеотекаDataSet.Учет_книг);
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Autorization Autorization = new Autorization();
+            Autorization.Show();
+            Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Вы уверены в выходе?", "Подтверждение выхода", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
     }
 }

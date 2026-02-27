@@ -37,8 +37,8 @@
             this.фамилияАвтораDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.имяАвтораDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.отчествоАвтораDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.учетКнигBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this._1_БиблеотекаDataSet = new WindowsFormsApp1._1_БиблеотекаDataSet();
+            this.учетКнигBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this._1_БиблеотекаDataSet2 = new WindowsFormsApp1._1_БиблеотекаDataSet2();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.кодчитательDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -46,7 +46,7 @@
             this.имяDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.отчествоDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.датаДобавленияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.учетЧитателейBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.кодвыдачиDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -54,6 +54,10 @@
             this.кодчитательDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.датаВыдачиDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.статусВыдачиDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.учетВыдачиBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.учетКнигBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this._1_БиблеотекаDataSet = new WindowsFormsApp1._1_БиблеотекаDataSet();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.учетВыдачиBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.учет_книгTableAdapter = new WindowsFormsApp1._1_БиблеотекаDataSetTableAdapters.Учет_книгTableAdapter();
             this.учет_читателейTableAdapter = new WindowsFormsApp1._1_БиблеотекаDataSetTableAdapters.Учет_читателейTableAdapter();
@@ -61,28 +65,24 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this._1_БиблеотекаDataSet2 = new WindowsFormsApp1._1_БиблеотекаDataSet2();
-            this.учетКнигBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.учет_книгTableAdapter1 = new WindowsFormsApp1._1_БиблеотекаDataSet2TableAdapters.Учет_книгTableAdapter();
-            this.учетЧитателейBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.учет_читателейTableAdapter1 = new WindowsFormsApp1._1_БиблеотекаDataSet2TableAdapters.Учет_читателейTableAdapter();
-            this.учетВыдачиBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.учет_выдачиTableAdapter1 = new WindowsFormsApp1._1_БиблеотекаDataSet2TableAdapters.Учет_выдачиTableAdapter();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.учетКнигBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this._1_БиблеотекаDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.учетКнигBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this._1_БиблеотекаDataSet2)).BeginInit();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.учетЧитателейBindingSource)).BeginInit();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.учетВыдачиBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this._1_БиблеотекаDataSet2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.учетКнигBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.учетЧитателейBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.учетВыдачиBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.учетКнигBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this._1_БиблеотекаDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.учетВыдачиBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -154,15 +154,15 @@
             this.отчествоАвтораDataGridViewTextBoxColumn.HeaderText = "Отчество автора";
             this.отчествоАвтораDataGridViewTextBoxColumn.Name = "отчествоАвтораDataGridViewTextBoxColumn";
             // 
-            // учетКнигBindingSource
+            // учетКнигBindingSource1
             // 
-            this.учетКнигBindingSource.DataMember = "Учет книг";
-            this.учетКнигBindingSource.DataSource = this._1_БиблеотекаDataSet;
+            this.учетКнигBindingSource1.DataMember = "Учет книг";
+            this.учетКнигBindingSource1.DataSource = this._1_БиблеотекаDataSet2;
             // 
-            // _1_БиблеотекаDataSet
+            // _1_БиблеотекаDataSet2
             // 
-            this._1_БиблеотекаDataSet.DataSetName = "_1_БиблеотекаDataSet";
-            this._1_БиблеотекаDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this._1_БиблеотекаDataSet2.DataSetName = "_1_БиблеотекаDataSet2";
+            this._1_БиблеотекаDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // tabPage3
             // 
@@ -221,10 +221,10 @@
             this.датаДобавленияDataGridViewTextBoxColumn.HeaderText = "Дата добавления";
             this.датаДобавленияDataGridViewTextBoxColumn.Name = "датаДобавленияDataGridViewTextBoxColumn";
             // 
-            // bindingSource1
+            // учетЧитателейBindingSource
             // 
-            this.bindingSource1.DataMember = "Учет читателей";
-            this.bindingSource1.DataSource = this._1_БиблеотекаDataSet;
+            this.учетЧитателейBindingSource.DataMember = "Учет читателей";
+            this.учетЧитателейBindingSource.DataSource = this._1_БиблеотекаDataSet2;
             // 
             // tabPage4
             // 
@@ -283,6 +283,26 @@
             this.статусВыдачиDataGridViewTextBoxColumn.HeaderText = "Статус выдачи";
             this.статусВыдачиDataGridViewTextBoxColumn.Name = "статусВыдачиDataGridViewTextBoxColumn";
             // 
+            // учетВыдачиBindingSource1
+            // 
+            this.учетВыдачиBindingSource1.DataMember = "Учет выдачи";
+            this.учетВыдачиBindingSource1.DataSource = this._1_БиблеотекаDataSet2;
+            // 
+            // учетКнигBindingSource
+            // 
+            this.учетКнигBindingSource.DataMember = "Учет книг";
+            this.учетКнигBindingSource.DataSource = this._1_БиблеотекаDataSet;
+            // 
+            // _1_БиблеотекаDataSet
+            // 
+            this._1_БиблеотекаDataSet.DataSetName = "_1_БиблеотекаDataSet";
+            this._1_БиблеотекаDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // bindingSource1
+            // 
+            this.bindingSource1.DataMember = "Учет читателей";
+            this.bindingSource1.DataSource = this._1_БиблеотекаDataSet;
+            // 
             // учетВыдачиBindingSource
             // 
             this.учетВыдачиBindingSource.DataMember = "Учет выдачи";
@@ -319,6 +339,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Выйти";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -329,34 +350,15 @@
             this.button2.TabIndex = 6;
             this.button2.Text = "Закрыть";
             this.button2.UseVisualStyleBackColor = false;
-            // 
-            // _1_БиблеотекаDataSet2
-            // 
-            this._1_БиблеотекаDataSet2.DataSetName = "_1_БиблеотекаDataSet2";
-            this._1_БиблеотекаDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // учетКнигBindingSource1
-            // 
-            this.учетКнигBindingSource1.DataMember = "Учет книг";
-            this.учетКнигBindingSource1.DataSource = this._1_БиблеотекаDataSet2;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // учет_книгTableAdapter1
             // 
             this.учет_книгTableAdapter1.ClearBeforeFill = true;
             // 
-            // учетЧитателейBindingSource
-            // 
-            this.учетЧитателейBindingSource.DataMember = "Учет читателей";
-            this.учетЧитателейBindingSource.DataSource = this._1_БиблеотекаDataSet2;
-            // 
             // учет_читателейTableAdapter1
             // 
             this.учет_читателейTableAdapter1.ClearBeforeFill = true;
-            // 
-            // учетВыдачиBindingSource1
-            // 
-            this.учетВыдачиBindingSource1.DataMember = "Учет выдачи";
-            this.учетВыдачиBindingSource1.DataSource = this._1_БиблеотекаDataSet2;
             // 
             // учет_выдачиTableAdapter1
             // 
@@ -378,18 +380,18 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.учетКнигBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this._1_БиблеотекаDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.учетКнигBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this._1_БиблеотекаDataSet2)).EndInit();
             this.tabPage3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.учетЧитателейBindingSource)).EndInit();
             this.tabPage4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.учетВыдачиBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this._1_БиблеотекаDataSet2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.учетКнигBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.учетЧитателейBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.учетВыдачиBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.учетКнигBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this._1_БиблеотекаDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.учетВыдачиBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "\\\\192.168.3.250\\Veda\\4 \u041A\u0443\u0440\u0441\\\u0418\u0421\u041F 43\\\u041C\u0414\u041A 07.01\\\u0421\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0411\u0440\u0430\u0433\u0438\u043D\\MDK-07.01-1-labs\\MDK-07.01-1-labs\\WindowsFormsApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3205C451-5077-4E12-A59B-F107238FDCF7}|WindowsFormsApp1.csproj|\\\\192.168.3.250\\veda\\4 \u043A\u0443\u0440\u0441\\\u0438\u0441\u043F 43\\\u043C\u0434\u043A 07.01\\\u0441\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0431\u0440\u0430\u0433\u0438\u043D\\mdk-07.01-1-labs\\mdk-07.01-1-labs\\windowsformsapp1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3205C451-5077-4E12-A59B-F107238FDCF7}|WindowsFormsApp1.csproj|\\\\192.168.3.250\\Veda\\4 \u041A\u0443\u0440\u0441\\\u0418\u0421\u041F 43\\\u041C\u0414\u041A 07.01\\\u0421\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0411\u0440\u0430\u0433\u0438\u043D\\MDK-07.01-1-labs\\MDK-07.01-1-labs\\WindowsFormsApp1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3205C451-5077-4E12-A59B-F107238FDCF7}|WindowsFormsApp1.csproj|\\\\192.168.3.250\\veda\\4 \u043A\u0443\u0440\u0441\\\u0438\u0441\u043F 43\\\u043C\u0434\u043A 07.01\\\u0441\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0431\u0440\u0430\u0433\u0438\u043D\\mdk-07.01-1-labs\\mdk-07.01-1-labs\\windowsformsapp1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3205C451-5077-4E12-A59B-F107238FDCF7}|WindowsFormsApp1.csproj|\\\\192.168.3.250\\Veda\\4 \u041A\u0443\u0440\u0441\\\u0418\u0421\u041F 43\\\u041C\u0414\u041A 07.01\\\u0421\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0411\u0440\u0430\u0433\u0438\u043D\\MDK-07.01-1-labs\\MDK-07.01-1-labs\\WindowsFormsApp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3205C451-5077-4E12-A59B-F107238FDCF7}|WindowsFormsApp1.csproj|\\\\192.168.3.250\\veda\\4 \u043A\u0443\u0440\u0441\\\u0438\u0441\u043F 43\\\u043C\u0434\u043A 07.01\\\u0441\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0431\u0440\u0430\u0433\u0438\u043D\\mdk-07.01-1-labs\\mdk-07.01-1-labs\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3205C451-5077-4E12-A59B-F107238FDCF7}|WindowsFormsApp1.csproj|\\\\192.168.3.250\\veda\\4 \u043A\u0443\u0440\u0441\\\u0438\u0441\u043F 43\\\u043C\u0434\u043A 07.01\\\u0441\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0431\u0440\u0430\u0433\u0438\u043D\\mdk-07.01-1-labs\\mdk-07.01-1-labs\\windowsformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3205C451-5077-4E12-A59B-F107238FDCF7}|WindowsFormsApp1.csproj|\\\\192.168.3.250\\veda\\4 \u043A\u0443\u0440\u0441\\\u0438\u0441\u043F 43\\\u043C\u0434\u043A 07.01\\\u0441\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0431\u0440\u0430\u0433\u0438\u043D\\mdk-07.01-1-labs\\mdk-07.01-1-labs\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:790341244:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "\\\\192.168.3.250\\Veda\\4 \u041A\u0443\u0440\u0441\\\u0418\u0421\u041F 43\\\u041C\u0414\u041A 07.01\\\u0421\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0411\u0440\u0430\u0433\u0438\u043D\\MDK-07.01-1-labs\\MDK-07.01-1-labs\\WindowsFormsApp1\\Form3.cs",
+              "RelativeDocumentMoniker": "Form3.cs",
+              "ToolTip": "\\\\192.168.3.250\\Veda\\4 \u041A\u0443\u0440\u0441\\\u0418\u0421\u041F 43\\\u041C\u0414\u041A 07.01\\\u0421\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0411\u0440\u0430\u0433\u0438\u043D\\MDK-07.01-1-labs\\MDK-07.01-1-labs\\WindowsFormsApp1\\Form3.cs",
+              "RelativeToolTip": "Form3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T06:17:13.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "\\\\192.168.3.250\\Veda\\4 \u041A\u0443\u0440\u0441\\\u0418\u0421\u041F 43\\\u041C\u0414\u041A 07.01\\\u0421\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0411\u0440\u0430\u0433\u0438\u043D\\MDK-07.01-1-labs\\MDK-07.01-1-labs\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "\\\\192.168.3.250\\Veda\\4 \u041A\u0443\u0440\u0441\\\u0418\u0421\u041F 43\\\u041C\u0414\u041A 07.01\\\u0421\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0411\u0440\u0430\u0433\u0438\u043D\\MDK-07.01-1-labs\\MDK-07.01-1-labs\\WindowsFormsApp1\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAlwCsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T06:16:02.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "\\\\192.168.3.250\\Veda\\4 \u041A\u0443\u0440\u0441\\\u0418\u0421\u041F 43\\\u041C\u0414\u041A 07.01\\\u0421\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0411\u0440\u0430\u0433\u0438\u043D\\MDK-07.01-1-labs\\MDK-07.01-1-labs\\WindowsFormsApp1\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "\\\\192.168.3.250\\Veda\\4 \u041A\u0443\u0440\u0441\\\u0418\u0421\u041F 43\\\u041C\u0414\u041A 07.01\\\u0421\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0411\u0440\u0430\u0433\u0438\u043D\\MDK-07.01-1-labs\\MDK-07.01-1-labs\\WindowsFormsApp1\\Form2.cs",
+              "RelativeToolTip": "Form2.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAtwDYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T06:15:57.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "\\\\192.168.3.250\\Veda\\4 \u041A\u0443\u0440\u0441\\\u0418\u0421\u041F 43\\\u041C\u0414\u041A 07.01\\\u0421\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0411\u0440\u0430\u0433\u0438\u043D\\MDK-07.01-1-labs\\MDK-07.01-1-labs\\WindowsFormsApp1\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "\\\\192.168.3.250\\Veda\\4 \u041A\u0443\u0440\u0441\\\u0418\u0421\u041F 43\\\u041C\u0414\u041A 07.01\\\u0421\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0411\u0440\u0430\u0433\u0438\u043D\\MDK-07.01-1-labs\\MDK-07.01-1-labs\\WindowsFormsApp1\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAADwCAAAAAAAAAAApwFICAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T06:11:15.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "\\\\192.168.3.250\\Veda\\4 \u041A\u0443\u0440\u0441\\\u0418\u0421\u041F 43\\\u041C\u0414\u041A 07.01\\\u0421\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0411\u0440\u0430\u0433\u0438\u043D\\MDK-07.01-1-labs\\MDK-07.01-1-labs\\WindowsFormsApp1\\Form3.cs",
+              "RelativeDocumentMoniker": "Form3.cs",
+              "ToolTip": "\\\\192.168.3.250\\Veda\\4 \u041A\u0443\u0440\u0441\\\u0418\u0421\u041F 43\\\u041C\u0414\u041A 07.01\\\u0421\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0411\u0440\u0430\u0433\u0438\u043D\\MDK-07.01-1-labs\\MDK-07.01-1-labs\\WindowsFormsApp1\\Form3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Form3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T05:54:42.544Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "\\\\192.168.3.250\\Veda\\4 \u041A\u0443\u0440\u0441\\\u0418\u0421\u041F 43\\\u041C\u0414\u041A 07.01\\\u0421\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0411\u0440\u0430\u0433\u0438\u043D\\MDK-07.01-1-labs\\MDK-07.01-1-labs\\WindowsFormsApp1\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "\\\\192.168.3.250\\Veda\\4 \u041A\u0443\u0440\u0441\\\u0418\u0421\u041F 43\\\u041C\u0414\u041A 07.01\\\u0421\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0411\u0440\u0430\u0433\u0438\u043D\\MDK-07.01-1-labs\\MDK-07.01-1-labs\\WindowsFormsApp1\\Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T05:54:41.469Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "\\\\192.168.3.250\\Veda\\4 \u041A\u0443\u0440\u0441\\\u0418\u0421\u041F 43\\\u041C\u0414\u041A 07.01\\\u0421\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0411\u0440\u0430\u0433\u0438\u043D\\MDK-07.01-1-labs\\MDK-07.01-1-labs\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "\\\\192.168.3.250\\Veda\\4 \u041A\u0443\u0440\u0441\\\u0418\u0421\u041F 43\\\u041C\u0414\u041A 07.01\\\u0421\u0442\u0443\u0434\u0435\u043D\u0442\u043A\u0438\\\u0411\u0440\u0430\u0433\u0438\u043D\\MDK-07.01-1-labs\\MDK-07.01-1-labs\\WindowsFormsApp1\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T05:54:38.864Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
