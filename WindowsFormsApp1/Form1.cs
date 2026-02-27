@@ -19,16 +19,17 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "_1_БиблеотекаDataSet2.Пользователи". При необходимости она может быть перемещена или удалена.
-            this.пользователиTableAdapter1.Fill(this._1_БиблеотекаDataSet2.Пользователи);
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "_1_БиблеотекаDataSet2.Запрос1". При необходимости она может быть перемещена или удалена.
-            this.запрос1TableAdapter.Fill(this._1_БиблеотекаDataSet2.Запрос1);
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "_1_БиблеотекаDataSet2.Учет_выдачи". При необходимости она может быть перемещена или удалена.
-            this.учет_выдачиTableAdapter1.Fill(this._1_БиблеотекаDataSet2.Учет_выдачи);
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "_1_БиблеотекаDataSet2.Учет_читателей". При необходимости она может быть перемещена или удалена.
-            this.учет_читателейTableAdapter1.Fill(this._1_БиблеотекаDataSet2.Учет_читателей);
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "_1_БиблеотекаDataSet2.Учет_книг". При необходимости она может быть перемещена или удалена.
-            this.учет_книгTableAdapter1.Fill(this._1_БиблеотекаDataSet2.Учет_книг);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "bookDataSet.Пользователи". При необходимости она может быть перемещена или удалена.
+            this.пользователиTableAdapter2.Fill(this.bookDataSet.Пользователи);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "bookDataSet.Запрос1". При необходимости она может быть перемещена или удалена.
+            this.запрос1TableAdapter1.Fill(this.bookDataSet.Запрос1);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "bookDataSet.Учет_выдачи". При необходимости она может быть перемещена или удалена.
+            this.учет_выдачиTableAdapter2.Fill(this.bookDataSet.Учет_выдачи);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "bookDataSet.Учет_читателей". При необходимости она может быть перемещена или удалена.
+            this.учет_читателейTableAdapter2.Fill(this.bookDataSet.Учет_читателей);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "bookDataSet.Учет_книг". При необходимости она может быть перемещена или удалена.
+            this.учет_книгTableAdapter2.Fill(this.bookDataSet.Учет_книг);
+          
 
         }
 
@@ -51,12 +52,14 @@ namespace WindowsFormsApp1
         private void Update_Click(object sender, EventArgs e)
         {
             // Сохраняем все наборы данных, которые могут быть изменены
-            this.учет_книгTableAdapter1.Update(this._1_БиблеотекаDataSet2.Учет_книг);
-            this.учет_читателейTableAdapter1.Update(this._1_БиблеотекаDataSet2.Учет_читателей);
-            this.учет_выдачиTableAdapter1.Update(this._1_БиблеотекаDataSet2.Учет_выдачи);
-            this.пользователиTableAdapter1.Update(this._1_БиблеотекаDataSet2.Пользователи);
+            this.учет_книгTableAdapter2.Update(this.bookDataSet.Учет_книг);
+            this.учет_читателейTableAdapter2.Update(this.bookDataSet.Учет_читателей);
+            this.учет_выдачиTableAdapter2.Update(this.bookDataSet.Учет_выдачи);
+            this.пользователиTableAdapter2.Update(this.bookDataSet.Пользователи);
 
             MessageBox.Show("Все изменения обновлены", "Успех");
         }
+
+       
     }
 }

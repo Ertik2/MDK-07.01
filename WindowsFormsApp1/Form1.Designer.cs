@@ -105,6 +105,17 @@
             this.учет_выдачиTableAdapter1 = new WindowsFormsApp1._1_БиблеотекаDataSet2TableAdapters.Учет_выдачиTableAdapter();
             this.запрос1TableAdapter = new WindowsFormsApp1._1_БиблеотекаDataSet2TableAdapters.Запрос1TableAdapter();
             this.пользователиTableAdapter1 = new WindowsFormsApp1._1_БиблеотекаDataSet2TableAdapters.ПользователиTableAdapter();
+            this.bookDataSet = new WindowsFormsApp1.BookDataSet();
+            this.учетКнигBindingSource5 = new System.Windows.Forms.BindingSource(this.components);
+            this.учет_книгTableAdapter2 = new WindowsFormsApp1.BookDataSetTableAdapters.Учет_книгTableAdapter();
+            this.учетЧитателейBindingSource4 = new System.Windows.Forms.BindingSource(this.components);
+            this.учет_читателейTableAdapter2 = new WindowsFormsApp1.BookDataSetTableAdapters.Учет_читателейTableAdapter();
+            this.учетВыдачиBindingSource4 = new System.Windows.Forms.BindingSource(this.components);
+            this.учет_выдачиTableAdapter2 = new WindowsFormsApp1.BookDataSetTableAdapters.Учет_выдачиTableAdapter();
+            this.запрос1BindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.запрос1TableAdapter1 = new WindowsFormsApp1.BookDataSetTableAdapters.Запрос1TableAdapter();
+            this.пользователиBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.пользователиTableAdapter2 = new WindowsFormsApp1.BookDataSetTableAdapters.ПользователиTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.библеотекаDataSet2BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.учетВыдачиBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.примерBindingSource)).BeginInit();
@@ -144,6 +155,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.историяВыдачиBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.новыеЧитателиBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.учетКнигBindingSource3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bookDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.учетКнигBindingSource5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.учетЧитателейBindingSource4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.учетВыдачиBindingSource4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.запрос1BindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.пользователиBindingSource2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -210,7 +227,7 @@
             this.dataGridViewTextBoxColumn3,
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn5});
-            this.dataGridView1.DataSource = this.учетКнигBindingSource4;
+            this.dataGridView1.DataSource = this.учетКнигBindingSource5;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(3, 3);
             this.dataGridView1.Name = "dataGridView1";
@@ -278,7 +295,7 @@
             this.dataGridViewTextBoxColumn8,
             this.dataGridViewTextBoxColumn9,
             this.dataGridViewTextBoxColumn10});
-            this.dataGridView2.DataSource = this.учетЧитателейBindingSource3;
+            this.dataGridView2.DataSource = this.учетЧитателейBindingSource4;
             this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView2.Location = new System.Drawing.Point(3, 3);
             this.dataGridView2.Name = "dataGridView2";
@@ -341,7 +358,7 @@
             this.dataGridViewTextBoxColumn13,
             this.dataGridViewTextBoxColumn14,
             this.dataGridViewTextBoxColumn15});
-            this.dataGridView3.DataSource = this.учетВыдачиBindingSource3;
+            this.dataGridView3.DataSource = this.учетВыдачиBindingSource4;
             this.dataGridView3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView3.Location = new System.Drawing.Point(3, 3);
             this.dataGridView3.Name = "dataGridView3";
@@ -404,7 +421,7 @@
             this.dataGridViewTextBoxColumn18,
             this.dataGridViewTextBoxColumn19,
             this.dataGridViewTextBoxColumn20});
-            this.dataGridView4.DataSource = this.запрос1BindingSource;
+            this.dataGridView4.DataSource = this.запрос1BindingSource1;
             this.dataGridView4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView4.Location = new System.Drawing.Point(3, 3);
             this.dataGridView4.Name = "dataGridView4";
@@ -465,12 +482,13 @@
             this.логинDataGridViewTextBoxColumn,
             this.парольDataGridViewTextBoxColumn,
             this.праваDataGridViewTextBoxColumn});
-            this.dataGridView5.DataSource = this.пользователиBindingSource1;
+            this.dataGridView5.DataSource = this.пользователиBindingSource2;
             this.dataGridView5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView5.Location = new System.Drawing.Point(0, 0);
             this.dataGridView5.Name = "dataGridView5";
             this.dataGridView5.Size = new System.Drawing.Size(714, 273);
             this.dataGridView5.TabIndex = 0;
+          
             // 
             // кодПользователяDataGridViewTextBoxColumn
             // 
@@ -588,11 +606,60 @@
             // 
             this.пользователиTableAdapter1.ClearBeforeFill = true;
             // 
+            // bookDataSet
+            // 
+            this.bookDataSet.DataSetName = "BookDataSet";
+            this.bookDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // учетКнигBindingSource5
+            // 
+            this.учетКнигBindingSource5.DataMember = "Учет книг";
+            this.учетКнигBindingSource5.DataSource = this.bookDataSet;
+            // 
+            // учет_книгTableAdapter2
+            // 
+            this.учет_книгTableAdapter2.ClearBeforeFill = true;
+            // 
+            // учетЧитателейBindingSource4
+            // 
+            this.учетЧитателейBindingSource4.DataMember = "Учет читателей";
+            this.учетЧитателейBindingSource4.DataSource = this.bookDataSet;
+            // 
+            // учет_читателейTableAdapter2
+            // 
+            this.учет_читателейTableAdapter2.ClearBeforeFill = true;
+            // 
+            // учетВыдачиBindingSource4
+            // 
+            this.учетВыдачиBindingSource4.DataMember = "Учет выдачи";
+            this.учетВыдачиBindingSource4.DataSource = this.bookDataSet;
+            // 
+            // учет_выдачиTableAdapter2
+            // 
+            this.учет_выдачиTableAdapter2.ClearBeforeFill = true;
+            // 
+            // запрос1BindingSource1
+            // 
+            this.запрос1BindingSource1.DataMember = "Запрос1";
+            this.запрос1BindingSource1.DataSource = this.bookDataSet;
+            // 
+            // запрос1TableAdapter1
+            // 
+            this.запрос1TableAdapter1.ClearBeforeFill = true;
+            // 
+            // пользователиBindingSource2
+            // 
+            this.пользователиBindingSource2.DataMember = "Пользователи";
+            this.пользователиBindingSource2.DataSource = this.bookDataSet;
+            // 
+            // пользователиTableAdapter2
+            // 
+            this.пользователиTableAdapter2.ClearBeforeFill = true;
+            // 
             // Administrator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-        
             this.ClientSize = new System.Drawing.Size(800, 453);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tabControl1);
@@ -636,10 +703,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.учетКнигBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.учетЧитателейBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.библеотекаDataSet1BindingSource1)).EndInit();
+         
             ((System.ComponentModel.ISupportInitialize)(this.учетЧитателейBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.историяВыдачиBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.новыеЧитателиBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.учетКнигBindingSource3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bookDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.учетКнигBindingSource5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.учетЧитателейBindingSource4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.учетВыдачиBindingSource4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.запрос1BindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.пользователиBindingSource2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -746,6 +820,17 @@
         private System.Windows.Forms.BindingSource пользователиBindingSource1;
         private _1_БиблеотекаDataSet2TableAdapters.ПользователиTableAdapter пользователиTableAdapter1;
         private System.Windows.Forms.BindingSource учетКнигBindingSource4;
+        private BookDataSet bookDataSet;
+        private System.Windows.Forms.BindingSource учетКнигBindingSource5;
+        private BookDataSetTableAdapters.Учет_книгTableAdapter учет_книгTableAdapter2;
+        private System.Windows.Forms.BindingSource учетЧитателейBindingSource4;
+        private BookDataSetTableAdapters.Учет_читателейTableAdapter учет_читателейTableAdapter2;
+        private System.Windows.Forms.BindingSource учетВыдачиBindingSource4;
+        private BookDataSetTableAdapters.Учет_выдачиTableAdapter учет_выдачиTableAdapter2;
+        private System.Windows.Forms.BindingSource запрос1BindingSource1;
+        private BookDataSetTableAdapters.Запрос1TableAdapter запрос1TableAdapter1;
+        private System.Windows.Forms.BindingSource пользователиBindingSource2;
+        private BookDataSetTableAdapters.ПользователиTableAdapter пользователиTableAdapter2;
     }
 }
 
