@@ -56,7 +56,9 @@
     <Reference Include="NuGet.Frameworks, Version=7.3.0.70, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\NuGet.Frameworks.7.3.0\lib\net472\NuGet.Frameworks.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -69,6 +71,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BookDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +96,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TELEDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TELEDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="_1_БиблеотекаDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -98,6 +110,16 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>_1_БиблеотекаDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_1_БиблеотекаDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_1_БиблеотекаDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_2_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_2_DataSet.xsd</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -118,6 +140,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="BookDataSet.xsc">
+      <DependentUpon>BookDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BookDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BookDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BookDataSet.xss">
+      <DependentUpon>BookDataSet.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -128,6 +161,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="TELEDataSet.xsc">
+      <DependentUpon>TELEDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TELEDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TELEDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TELEDataSet.xss">
+      <DependentUpon>TELEDataSet.xsd</DependentUpon>
+    </None>
     <None Include="_1_БиблеотекаDataSet.xsc">
       <DependentUpon>_1_БиблеотекаDataSet.xsd</DependentUpon>
     </None>
@@ -150,6 +194,28 @@
     <None Include="_1_БиблеотекаDataSet1.xss">
       <DependentUpon>_1_БиблеотекаDataSet1.xsd</DependentUpon>
     </None>
+    <None Include="_1_БиблеотекаDataSet21.xsc">
+      <DependentUpon>_1_БиблеотекаDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="_1_БиблеотекаDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_1_БиблеотекаDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_1_БиблеотекаDataSet21.xss">
+      <DependentUpon>_1_БиблеотекаDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="_2_DataSet.xsc">
+      <DependentUpon>_2_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_2_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_2_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_2_DataSet.xss">
+      <DependentUpon>_2_DataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -160,6 +226,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1 Библеотека.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2 .accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="3.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
