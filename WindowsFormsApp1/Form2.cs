@@ -25,13 +25,33 @@ namespace WindowsFormsApp1
 
         private void Client_Load_1(object sender, EventArgs e)
         {
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "_1_БиблеотекаDataSet.Учет_выдачи". При необходимости она может быть перемещена или удалена.
-            this.учет_выдачиTableAdapter.Fill(this._1_БиблеотекаDataSet.Учет_выдачи);
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "_1_БиблеотекаDataSet.Учет_читателей". При необходимости она может быть перемещена или удалена.
-            this.учет_читателейTableAdapter.Fill(this._1_БиблеотекаDataSet.Учет_читателей);
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "_1_БиблеотекаDataSet.Учет_книг". При необходимости она может быть перемещена или удалена.
-            this.учет_книгTableAdapter.Fill(this._1_БиблеотекаDataSet.Учет_книг);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "_2_DataSet.Оплата". При необходимости она может быть перемещена или удалена.
+            this.оплатаTableAdapter.Fill(this._2_DataSet.Оплата);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "_2_DataSet.Телефоны". При необходимости она может быть перемещена или удалена.
+            this.телефоныTableAdapter.Fill(this._2_DataSet.Телефоны);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "_2_DataSet.Абоненты". При необходимости она может быть перемещена или удалена.
+            this.абонентыTableAdapter.Fill(this._2_DataSet.Абоненты);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "bookDataSet.Учет_выдачи". При необходимости она может быть перемещена или удалена.
+           
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Вы уверены в выходе?", "Подтверждение выхода", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Autorization Autorization = new Autorization();
+            Autorization.Show();
+            Hide();
+        }
+
+       
     }
 }
