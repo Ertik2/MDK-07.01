@@ -99,6 +99,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>_1_БиблеотекаDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="_1_БиблеотекаDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_1_БиблеотекаDataSet21.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -149,6 +154,17 @@
     </None>
     <None Include="_1_БиблеотекаDataSet1.xss">
       <DependentUpon>_1_БиблеотекаDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="_1_БиблеотекаDataSet21.xsc">
+      <DependentUpon>_1_БиблеотекаDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="_1_БиблеотекаDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_1_БиблеотекаDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_1_БиблеотекаDataSet21.xss">
+      <DependentUpon>_1_БиблеотекаDataSet21.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
