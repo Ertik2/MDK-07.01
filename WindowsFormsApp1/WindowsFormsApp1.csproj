@@ -191,9 +191,7 @@
     <None Include="Image\orig.jfif" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="1 Библеотека.accdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="1 Библеотека.accdb" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
