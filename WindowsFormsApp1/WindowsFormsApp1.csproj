@@ -56,7 +56,9 @@
     <Reference Include="NuGet.Frameworks, Version=7.3.0.70, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\NuGet.Frameworks.7.3.0\lib\net472\NuGet.Frameworks.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -69,6 +71,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BookDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CookDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CookDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,17 +99,24 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="_1_БиблеотекаDataSet.Designer.cs">
+    <Compile Include="TELEDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>_1_БиблеотекаDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="_1_БиблеотекаDataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>_1_БиблеотекаDataSet1.xsd</DependentUpon>
+      <DependentUpon>TELEDataSet.xsd</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -107,6 +126,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -118,6 +143,28 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="BookDataSet.xsc">
+      <DependentUpon>BookDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BookDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BookDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BookDataSet.xss">
+      <DependentUpon>BookDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CookDataSet.xsc">
+      <DependentUpon>CookDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CookDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CookDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CookDataSet.xss">
+      <DependentUpon>CookDataSet.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -128,27 +175,16 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="_1_БиблеотекаDataSet.xsc">
-      <DependentUpon>_1_БиблеотекаDataSet.xsd</DependentUpon>
+    <None Include="TELEDataSet.xsc">
+      <DependentUpon>TELEDataSet.xsd</DependentUpon>
     </None>
-    <None Include="_1_БиблеотекаDataSet.xsd">
+    <None Include="TELEDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>_1_БиблеотекаDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>TELEDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="_1_БиблеотекаDataSet.xss">
-      <DependentUpon>_1_БиблеотекаDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="_1_БиблеотекаDataSet1.xsc">
-      <DependentUpon>_1_БиблеотекаDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="_1_БиблеотекаDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>_1_БиблеотекаDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="_1_БиблеотекаDataSet1.xss">
-      <DependentUpon>_1_БиблеотекаDataSet1.xsd</DependentUpon>
+    <None Include="TELEDataSet.xss">
+      <DependentUpon>TELEDataSet.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -159,7 +195,13 @@
     <None Include="Image\orig.jfif" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="1 Библеотека.accdb">
+    <Content Include="2 .accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="3.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="4.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

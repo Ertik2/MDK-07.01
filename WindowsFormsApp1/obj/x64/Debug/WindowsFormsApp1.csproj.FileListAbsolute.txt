@@ -12,3 +12,23 @@
 \\192.168.3.250\Veda\4 Курс\ИСП 43\МДК 07.01\Студентки\Брагин\WindowsFormsApp1\obj\x64\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 \\192.168.3.250\Veda\4 Курс\ИСП 43\МДК 07.01\Студентки\Брагин\WindowsFormsApp1\obj\x64\Debug\WindowsFormsApp1.exe
 \\192.168.3.250\Veda\4 Курс\ИСП 43\МДК 07.01\Студентки\Брагин\WindowsFormsApp1\obj\x64\Debug\WindowsFormsApp1.pdb
+C:\Users\АБРА\Downloads\MDK-07.01-1-labs\MDK-07.01-1-labs\WindowsFormsApp1\bin\x64\Debug\WindowsFormsApp1.exe.config
+C:\Users\АБРА\Downloads\MDK-07.01-1-labs\MDK-07.01-1-labs\WindowsFormsApp1\bin\x64\Debug\WindowsFormsApp1.exe
+C:\Users\АБРА\Downloads\MDK-07.01-1-labs\MDK-07.01-1-labs\WindowsFormsApp1\bin\x64\Debug\WindowsFormsApp1.pdb
+C:\Users\АБРА\Downloads\MDK-07.01-1-labs\MDK-07.01-1-labs\WindowsFormsApp1\bin\x64\Debug\NuGet.Frameworks.dll
+C:\Users\АБРА\Downloads\MDK-07.01-1-labs\MDK-07.01-1-labs\WindowsFormsApp1\bin\x64\Debug\NuGet.Frameworks.xml
+C:\Users\АБРА\Downloads\MDK-07.01-1-labs\MDK-07.01-1-labs\WindowsFormsApp1\obj\x64\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\АБРА\Downloads\MDK-07.01-1-labs\MDK-07.01-1-labs\WindowsFormsApp1\obj\x64\Debug\WindowsFormsApp1.Administrator.resources
+C:\Users\АБРА\Downloads\MDK-07.01-1-labs\MDK-07.01-1-labs\WindowsFormsApp1\obj\x64\Debug\WindowsFormsApp1.Client.resources
+C:\Users\АБРА\Downloads\MDK-07.01-1-labs\MDK-07.01-1-labs\WindowsFormsApp1\obj\x64\Debug\WindowsFormsApp1.Autorization.resources
+C:\Users\АБРА\Downloads\MDK-07.01-1-labs\MDK-07.01-1-labs\WindowsFormsApp1\obj\x64\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\АБРА\Downloads\MDK-07.01-1-labs\MDK-07.01-1-labs\WindowsFormsApp1\obj\x64\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\АБРА\Downloads\MDK-07.01-1-labs\MDK-07.01-1-labs\WindowsFormsApp1\obj\x64\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\АБРА\Downloads\MDK-07.01-1-labs\MDK-07.01-1-labs\WindowsFormsApp1\obj\x64\Debug\WindowsF.A1EEDF9B.Up2Date
+C:\Users\АБРА\Downloads\MDK-07.01-1-labs\MDK-07.01-1-labs\WindowsFormsApp1\obj\x64\Debug\WindowsFormsApp1.exe
+C:\Users\АБРА\Downloads\MDK-07.01-1-labs\MDK-07.01-1-labs\WindowsFormsApp1\obj\x64\Debug\WindowsFormsApp1.pdb
+C:\Users\АБРА\Downloads\MDK-07.01-1-labs\MDK-07.01-1-labs\WindowsFormsApp1\bin\x64\Debug\2 .accdb
+C:\Users\АБРА\Downloads\MDK-07.01-1-labs\MDK-07.01-1-labs\WindowsFormsApp1\bin\x64\Debug\3.accdb
+C:\Users\АБРА\Downloads\MDK-07.01-1-labs\MDK-07.01-1-labs\WindowsFormsApp1\bin\x64\Debug\4.accdb
+C:\Users\АБРА\Downloads\MDK-07.01-1-labs\MDK-07.01-1-labs\WindowsFormsApp1\obj\x64\Debug\WindowsFormsApp1.Form4.resources
+C:\Users\АБРА\Downloads\MDK-07.01-1-labs\MDK-07.01-1-labs\WindowsFormsApp1\obj\x64\Debug\WindowsFormsApp1.Form5.resources

@@ -19,30 +19,51 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "_1_БиблеотекаDataSet1.Пользователи". При необходимости она может быть перемещена или удалена.
-            this.пользователиTableAdapter.Fill(this._1_БиблеотекаDataSet1.Пользователи);
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "_1_БиблеотекаDataSet.Учет_выдачи". При необходимости она может быть перемещена или удалена.
-            this.учет_выдачиTableAdapter.Fill(this._1_БиблеотекаDataSet.Учет_выдачи);
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "_1_БиблеотекаDataSet.Учет_читателей". При необходимости она может быть перемещена или удалена.
-            this.учет_читателейTableAdapter.Fill(this._1_БиблеотекаDataSet.Учет_читателей);
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "_1_БиблеотекаDataSet.Учет_книг". При необходимости она может быть перемещена или удалена.
-            this.учет_книгTableAdapter.Fill(this._1_БиблеотекаDataSet.Учет_книг);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "cookDataSet.Пользователи". При необходимости она может быть перемещена или удалена.
+            this.пользователиTableAdapter5.Fill(this.cookDataSet.Пользователи);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "cookDataSet.Состав". При необходимости она может быть перемещена или удалена.
+            this.составTableAdapter.Fill(this.cookDataSet.Состав);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "cookDataSet.Продукты". При необходимости она может быть перемещена или удалена.
+            this.продуктыTableAdapter.Fill(this.cookDataSet.Продукты);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "cookDataSet.Блюда". При необходимости она может быть перемещена или удалена.
+            this.блюдаTableAdapter.Fill(this.cookDataSet.Блюда);
+        
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void Back_Click(object sender, EventArgs e)
         {
-
+            Autorization Autorization = new Autorization();
+            Autorization.Show();
+            Hide();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            DialogResult result = MessageBox.Show("Вы уверены в выходе?", "Подтверждение выхода", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
 
-        private void dataGridView4_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void Update_Click(object sender, EventArgs e)
         {
+            // Сохраняем все наборы данных, которые могут быть изменены
+            
+            this.пользователиTableAdapter5.Update(this.cookDataSet.Пользователи);
+            this.составTableAdapter.Update(this.cookDataSet.Состав);
+            this.продуктыTableAdapter.Update(this.cookDataSet.Продукты);
+            this.блюдаTableAdapter.Update(this.cookDataSet.Блюда);
 
+            MessageBox.Show("Все изменения обновлены", "Успех");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form4 Form4 = new Form4();
+            Form4.Show();
+            Hide();
         }
     }
 }
